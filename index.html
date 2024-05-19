@@ -1,1 +1,1934 @@
-Hello World
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>bcbc91f865224851b599f2aa43f4f689</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="evaluation-of-top-songs-on-spotify-in-2023"
+class="cell markdown">
+<h2>Evaluation of Top Songs on Spotify in 2023</h2>
+<p>Collaborators: Andrew Hyssop Cha, Akash Patil, Nhat Nguyen</p>
+</section>
+<section id="introduction-and-motivation" class="cell markdown">
+<h2>Introduction and Motivation</h2>
+</section>
+<div class="cell markdown">
+<p>Spotify has become a transformative force in the music and audio
+streaming industry, reshaping how we experience music. As the world’s
+leading music streaming platform with over 350 million users, Spotify
+not only offers a vast library of songs, podcasts, and audio content but
+also has grown into an over 28 billion dollar industry.</p>
+<p>With Spotify’s presence, smaller artists are now able to distribute
+directly to listeners. This leads to an abundance of choice, with
+various smaller artists producing new styles of music.</p>
+<p>With this abundance of choice, it is important to analyze what
+elements make up a popular song, which can help with getting more
+streams or anticipating what song will have a bigger impact in the
+industry. In order to accurately assess what features make up a popular
+song, we will be going through the data science pipeline to learn useful
+insights and create a model for predicting the success of a new
+song.</p>
+</div>
+<section id="part-1-data-collection" class="cell markdown">
+<h2>Part 1: Data Collection</h2>
+</section>
+<div class="cell markdown">
+<p>First, we import any libraries needed for our analysis. For our
+tutorial we used the ones below.</p>
+</div>
+<div class="cell code" data-execution_count="2">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> traceback</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>Out of our imports Pandas is of particular value. It allows us to
+create Dataframes and manipulating them in easy and flexible ways.</p>
+</div>
+<div class="cell markdown">
+<p>The data set we have chosen is one from Kaggle, it consists of
+Spotify tracks from over a range of 125 different genres. Each track has
+some audio features associated with it. The data has been downloaded and
+is in CSV format. Data can be retrieved in many different ways and can
+come in many different formats; for example some data would have to be
+retrieved by scraping it off some website, and then be formatted, it
+could be acquired through some API request and received in something
+like JSON/XML format. In our case, as mentioned prior, the data is in a
+CSV(comma-separated values) file, so we can simply load that into a
+pandas dataframe using a pandas function.</p>
+</div>
+<div class="cell code" data-execution_count="3">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>df_master <span class="op">=</span> pd.read_csv(<span class="st">&quot;spotify-2023.csv&quot;</span>, sep<span class="op">=</span><span class="st">&#39;,&#39;</span>, encoding<span class="op">=</span><span class="st">&#39;latin-1&#39;</span>)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>df_master.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="3">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>track_name</th>
+      <th>artist(s)_name</th>
+      <th>artist_count</th>
+      <th>released_year</th>
+      <th>released_month</th>
+      <th>released_day</th>
+      <th>in_spotify_playlists</th>
+      <th>in_spotify_charts</th>
+      <th>streams</th>
+      <th>in_apple_playlists</th>
+      <th>...</th>
+      <th>bpm</th>
+      <th>key</th>
+      <th>mode</th>
+      <th>danceability_%</th>
+      <th>valence_%</th>
+      <th>energy_%</th>
+      <th>acousticness_%</th>
+      <th>instrumentalness_%</th>
+      <th>liveness_%</th>
+      <th>speechiness_%</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Seven (feat. Latto) (Explicit Ver.)</td>
+      <td>Latto, Jung Kook</td>
+      <td>2</td>
+      <td>2023</td>
+      <td>7</td>
+      <td>14</td>
+      <td>553</td>
+      <td>147</td>
+      <td>141381703</td>
+      <td>43</td>
+      <td>...</td>
+      <td>125</td>
+      <td>B</td>
+      <td>Major</td>
+      <td>80</td>
+      <td>89</td>
+      <td>83</td>
+      <td>31</td>
+      <td>0</td>
+      <td>8</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>LALA</td>
+      <td>Myke Towers</td>
+      <td>1</td>
+      <td>2023</td>
+      <td>3</td>
+      <td>23</td>
+      <td>1474</td>
+      <td>48</td>
+      <td>133716286</td>
+      <td>48</td>
+      <td>...</td>
+      <td>92</td>
+      <td>C#</td>
+      <td>Major</td>
+      <td>71</td>
+      <td>61</td>
+      <td>74</td>
+      <td>7</td>
+      <td>0</td>
+      <td>10</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>vampire</td>
+      <td>Olivia Rodrigo</td>
+      <td>1</td>
+      <td>2023</td>
+      <td>6</td>
+      <td>30</td>
+      <td>1397</td>
+      <td>113</td>
+      <td>140003974</td>
+      <td>94</td>
+      <td>...</td>
+      <td>138</td>
+      <td>F</td>
+      <td>Major</td>
+      <td>51</td>
+      <td>32</td>
+      <td>53</td>
+      <td>17</td>
+      <td>0</td>
+      <td>31</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Cruel Summer</td>
+      <td>Taylor Swift</td>
+      <td>1</td>
+      <td>2019</td>
+      <td>8</td>
+      <td>23</td>
+      <td>7858</td>
+      <td>100</td>
+      <td>800840817</td>
+      <td>116</td>
+      <td>...</td>
+      <td>170</td>
+      <td>A</td>
+      <td>Major</td>
+      <td>55</td>
+      <td>58</td>
+      <td>72</td>
+      <td>11</td>
+      <td>0</td>
+      <td>11</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>WHERE SHE GOES</td>
+      <td>Bad Bunny</td>
+      <td>1</td>
+      <td>2023</td>
+      <td>5</td>
+      <td>18</td>
+      <td>3133</td>
+      <td>50</td>
+      <td>303236322</td>
+      <td>84</td>
+      <td>...</td>
+      <td>144</td>
+      <td>A</td>
+      <td>Minor</td>
+      <td>65</td>
+      <td>23</td>
+      <td>80</td>
+      <td>14</td>
+      <td>63</td>
+      <td>11</td>
+      <td>6</td>
+    </tr>
+  </tbody>
+</table>
+<p>5 rows × 24 columns</p>
+</div>
+</div>
+</div>
+<section id="part-2-data-processing" class="cell markdown">
+<h2>Part 2: Data Processing</h2>
+</section>
+<div class="cell markdown">
+<p>We now have our data loaded into a dataframe! Now we can manipulate
+it and start our data processing step. Firstly we can take a look at the
+shape of our of data, basically how many rows and columns it has.</p>
+</div>
+<div class="cell code" data-execution_count="4">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df_master.shape)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>(952, 24)
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="5">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>df_master.dtypes</span></code></pre></div>
+<div class="output execute_result" data-execution_count="5">
+<pre><code>track_name              object
+artist(s)_name          object
+artist_count             int64
+released_year            int64
+released_month           int64
+released_day             int64
+in_spotify_playlists     int64
+in_spotify_charts        int64
+streams                  int64
+in_apple_playlists       int64
+in_apple_charts          int64
+in_deezer_playlists     object
+in_deezer_charts         int64
+in_shazam_charts        object
+bpm                      int64
+key                     object
+mode                    object
+danceability_%           int64
+valence_%                int64
+energy_%                 int64
+acousticness_%           int64
+instrumentalness_%       int64
+liveness_%               int64
+speechiness_%            int64
+dtype: object</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>Here we can see a variety of features. Features like danceability_%,
+energy_%, and speechiness_% demonstrate how prevelant certain qualities
+are in a song. Features such as in_apple_charts and in_deezer_playlists
+show how popular songs are in other streaming platforms. Additionally,
+the release dates and number streams also make an appearance.</p>
+<p>By figuring out which features are related to eachother we can plan
+out how we want to plot the data and what to compare the features
+against. For example, we will need a dependant variable to keep track of
+how successful a song is. From our features it seems like streams would
+be a good choice.</p>
+</div>
+<div class="cell markdown">
+<p>As we can see above, we have some inconsistencies within the type of
+our data. Lets start with the "in_x_playlists" and "in_x_charts" types,
+we can see that certain in playlist/chart features are of type int64,
+while others are of type object. By looking at the head of the dataframe
+printed above, and since the majority of them are int64, we can assume
+that all the features corresponding to the position of the song in the
+chart and how many playlists its in should be an int. So lets try and
+fix that, within our dataframe we can cast it to an int.</p>
+</div>
+<div class="cell code" data-execution_count="6">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>df_copy <span class="op">=</span> df_master.copy()</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="cf">try</span>:</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>  df_copy[<span class="st">&#39;in_deezer_playlists&#39;</span>] <span class="op">=</span> df_copy[<span class="st">&#39;in_deezer_playlists&#39;</span>].<span class="bu">str</span>.replace(<span class="st">&quot;,&quot;</span>, <span class="st">&quot;&quot;</span>).astype(<span class="bu">int</span>)</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>  df_copy[<span class="st">&#39;in_shazam_charts&#39;</span>] <span class="op">=</span> df_copy[<span class="st">&#39;in_shazam_charts&#39;</span>].<span class="bu">str</span>.replace(<span class="st">&quot;,&quot;</span>, <span class="st">&quot;&quot;</span>).astype(<span class="bu">int</span>)</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="cf">except</span> <span class="pp">Exception</span> <span class="im">as</span> e:</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>  traceback.print_exc()</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>Traceback (most recent call last):
+  File &quot;C:\Users\hysso\AppData\Local\Temp\ipykernel_8936\758552815.py&quot;, line 4, in &lt;module&gt;
+    df_copy[&#39;in_shazam_charts&#39;] = df_copy[&#39;in_shazam_charts&#39;].str.replace(&quot;,&quot;, &quot;&quot;).astype(int)
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\hysso\anaconda3\Lib\site-packages\pandas\core\generic.py&quot;, line 6324, in astype
+    new_data = self._mgr.astype(dtype=dtype, copy=copy, errors=errors)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\hysso\anaconda3\Lib\site-packages\pandas\core\internals\managers.py&quot;, line 451, in astype
+    return self.apply(
+           ^^^^^^^^^^^
+  File &quot;c:\Users\hysso\anaconda3\Lib\site-packages\pandas\core\internals\managers.py&quot;, line 352, in apply
+    applied = getattr(b, f)(**kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\hysso\anaconda3\Lib\site-packages\pandas\core\internals\blocks.py&quot;, line 511, in astype
+    new_values = astype_array_safe(values, dtype, copy=copy, errors=errors)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\hysso\anaconda3\Lib\site-packages\pandas\core\dtypes\astype.py&quot;, line 242, in astype_array_safe
+    new_values = astype_array(values, dtype, copy=copy)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\hysso\anaconda3\Lib\site-packages\pandas\core\dtypes\astype.py&quot;, line 187, in astype_array
+    values = _astype_nansafe(values, dtype, copy=copy)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;c:\Users\hysso\anaconda3\Lib\site-packages\pandas\core\dtypes\astype.py&quot;, line 138, in _astype_nansafe
+    return arr.astype(dtype, copy=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: cannot convert float NaN to integer
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>This brought up an error. From the error message we can see that
+certain values within our dataset are NaN, which mean they don't exist.
+Now, there are many ways to remedy this, we could do something like
+interpolate missing data, we could fill it with 0 or with the
+mean/median value. In our case, we'll simply drop the missing values,
+and after we do that, we'll see how many examples remain and determine
+if simply dropping them is fine, or some further step should be
+taken.</p>
+</div>
+<div class="cell code" data-execution_count="7">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>df_master <span class="op">=</span> df_master.dropna()</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df_master.shape)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>(816, 24)
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>After dropping all examples with non-existent data, we have ended up
+with 816 examples, this serves as enough examples for what we want to do
+with the data. Now that we've handled the non-existent data, let's try
+converting the chart and position data to the int type again!</p>
+</div>
+<div class="cell code" data-execution_count="8">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>df_master[<span class="st">&#39;in_deezer_playlists&#39;</span>] <span class="op">=</span> df_master[<span class="st">&#39;in_deezer_playlists&#39;</span>].<span class="bu">str</span>.replace(<span class="st">&quot;,&quot;</span>, <span class="st">&quot;&quot;</span>).astype(<span class="bu">int</span>)</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>df_master[<span class="st">&#39;in_shazam_charts&#39;</span>] <span class="op">=</span> df_master[<span class="st">&#39;in_shazam_charts&#39;</span>].<span class="bu">str</span>.replace(<span class="st">&quot;,&quot;</span>, <span class="st">&quot;&quot;</span>).astype(<span class="bu">int</span>)</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>df_master.dtypes</span></code></pre></div>
+<div class="output execute_result" data-execution_count="8">
+<pre><code>track_name              object
+artist(s)_name          object
+artist_count             int64
+released_year            int64
+released_month           int64
+released_day             int64
+in_spotify_playlists     int64
+in_spotify_charts        int64
+streams                  int64
+in_apple_playlists       int64
+in_apple_charts          int64
+in_deezer_playlists      int32
+in_deezer_charts         int64
+in_shazam_charts         int32
+bpm                      int64
+key                     object
+mode                    object
+danceability_%           int64
+valence_%                int64
+energy_%                 int64
+acousticness_%           int64
+instrumentalness_%       int64
+liveness_%               int64
+speechiness_%            int64
+dtype: object</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>That code ran just fine, and looking at our types again, we can see
+that the "in_x_playlists" and "in_x_charts" types are consistent with
+each other and are all int64 types. Now, looking at our artist data, we
+can see that it is an "object" type, if we look back at when we printed
+the head of our dataframe we can see that its most likely a string.
+Certain songs have more than one artist, and keeping them in a single
+string is not the best representation of them, so what we'll do is first
+rename the column, and then convert the comma separated artist names
+into an array of strings</p>
+</div>
+<div class="cell code" data-execution_count="9">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Dataframe with split artists </span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>df_split_artist <span class="op">=</span> df_master.copy()</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>df_split_artist <span class="op">=</span> df_split_artist.rename(columns<span class="op">=</span>{<span class="st">&#39;artist(s)_name&#39;</span>: <span class="st">&#39;artist&#39;</span>})</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Split the artist feature containing the artist(s) into a list of strings</span></span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>df_split_artist[<span class="st">&#39;artist&#39;</span>] <span class="op">=</span> df_split_artist[<span class="st">&#39;artist&#39;</span>].<span class="bu">apply</span>(<span class="kw">lambda</span> x: x.split(<span class="st">&quot;, &quot;</span>))</span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>df_split_artist.head()</span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>df_master <span class="op">=</span> df_split_artist</span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>df_master.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="9">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>track_name</th>
+      <th>artist</th>
+      <th>artist_count</th>
+      <th>released_year</th>
+      <th>released_month</th>
+      <th>released_day</th>
+      <th>in_spotify_playlists</th>
+      <th>in_spotify_charts</th>
+      <th>streams</th>
+      <th>in_apple_playlists</th>
+      <th>...</th>
+      <th>bpm</th>
+      <th>key</th>
+      <th>mode</th>
+      <th>danceability_%</th>
+      <th>valence_%</th>
+      <th>energy_%</th>
+      <th>acousticness_%</th>
+      <th>instrumentalness_%</th>
+      <th>liveness_%</th>
+      <th>speechiness_%</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Seven (feat. Latto) (Explicit Ver.)</td>
+      <td>[Latto, Jung Kook]</td>
+      <td>2</td>
+      <td>2023</td>
+      <td>7</td>
+      <td>14</td>
+      <td>553</td>
+      <td>147</td>
+      <td>141381703</td>
+      <td>43</td>
+      <td>...</td>
+      <td>125</td>
+      <td>B</td>
+      <td>Major</td>
+      <td>80</td>
+      <td>89</td>
+      <td>83</td>
+      <td>31</td>
+      <td>0</td>
+      <td>8</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>LALA</td>
+      <td>[Myke Towers]</td>
+      <td>1</td>
+      <td>2023</td>
+      <td>3</td>
+      <td>23</td>
+      <td>1474</td>
+      <td>48</td>
+      <td>133716286</td>
+      <td>48</td>
+      <td>...</td>
+      <td>92</td>
+      <td>C#</td>
+      <td>Major</td>
+      <td>71</td>
+      <td>61</td>
+      <td>74</td>
+      <td>7</td>
+      <td>0</td>
+      <td>10</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>vampire</td>
+      <td>[Olivia Rodrigo]</td>
+      <td>1</td>
+      <td>2023</td>
+      <td>6</td>
+      <td>30</td>
+      <td>1397</td>
+      <td>113</td>
+      <td>140003974</td>
+      <td>94</td>
+      <td>...</td>
+      <td>138</td>
+      <td>F</td>
+      <td>Major</td>
+      <td>51</td>
+      <td>32</td>
+      <td>53</td>
+      <td>17</td>
+      <td>0</td>
+      <td>31</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Cruel Summer</td>
+      <td>[Taylor Swift]</td>
+      <td>1</td>
+      <td>2019</td>
+      <td>8</td>
+      <td>23</td>
+      <td>7858</td>
+      <td>100</td>
+      <td>800840817</td>
+      <td>116</td>
+      <td>...</td>
+      <td>170</td>
+      <td>A</td>
+      <td>Major</td>
+      <td>55</td>
+      <td>58</td>
+      <td>72</td>
+      <td>11</td>
+      <td>0</td>
+      <td>11</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>WHERE SHE GOES</td>
+      <td>[Bad Bunny]</td>
+      <td>1</td>
+      <td>2023</td>
+      <td>5</td>
+      <td>18</td>
+      <td>3133</td>
+      <td>50</td>
+      <td>303236322</td>
+      <td>84</td>
+      <td>...</td>
+      <td>144</td>
+      <td>A</td>
+      <td>Minor</td>
+      <td>65</td>
+      <td>23</td>
+      <td>80</td>
+      <td>14</td>
+      <td>63</td>
+      <td>11</td>
+      <td>6</td>
+    </tr>
+  </tbody>
+</table>
+<p>5 rows × 24 columns</p>
+</div>
+</div>
+</div>
+<div class="cell markdown">
+<p>If we take a look at the Key, we can see that it is a string value
+corresponding to the actual key itself and we can also see that the mode
+is something similar. Machine learning algorithms work well with
+numbers, not strings, hence, we will be mapping the key and mode
+respectively to some integer values. The key will simply be mapped to
+their ordinal value so A=0, A#=1, B=2, etc. For the mode, there are
+simply two possible options so 0(Major) and 1(Minor). We will be making
+a new column(feature) and will be keeping the original key and mode
+value for data visualization purposes, which we'll see later, however,
+as mentioned prior, they will not be used in any calculations.</p>
+</div>
+<div class="cell code" data-execution_count="10">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert &#39;key&#39; to numerical values</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>key_mapping <span class="op">=</span> {<span class="st">&#39;A&#39;</span>: <span class="dv">0</span>, <span class="st">&#39;A#&#39;</span>: <span class="dv">1</span>, <span class="st">&#39;B&#39;</span>: <span class="dv">2</span>, <span class="st">&#39;C&#39;</span>: <span class="dv">3</span>, <span class="st">&#39;C#&#39;</span>: <span class="dv">4</span>, <span class="st">&#39;D&#39;</span>: <span class="dv">5</span>, <span class="st">&#39;D#&#39;</span>: <span class="dv">6</span>, <span class="st">&#39;E&#39;</span>: <span class="dv">7</span>, <span class="st">&#39;F&#39;</span>: <span class="dv">8</span>, <span class="st">&#39;F#&#39;</span>: <span class="dv">9</span>, <span class="st">&#39;G&#39;</span>: <span class="dv">10</span>, <span class="st">&#39;G#&#39;</span>: <span class="dv">11</span>}</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>df_master[<span class="st">&#39;key_mapping&#39;</span>] <span class="op">=</span> df_master[<span class="st">&#39;key&#39;</span>].<span class="bu">map</span>(key_mapping)</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Converting &#39;mode&#39; to numerical values</span></span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>df_master[<span class="st">&quot;mode_mapping&quot;</span>] <span class="op">=</span> df_master[<span class="st">&quot;mode&quot;</span>] <span class="op">==</span> <span class="st">&#39;Major&#39;</span></span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a>df_master.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="10">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>track_name</th>
+      <th>artist</th>
+      <th>artist_count</th>
+      <th>released_year</th>
+      <th>released_month</th>
+      <th>released_day</th>
+      <th>in_spotify_playlists</th>
+      <th>in_spotify_charts</th>
+      <th>streams</th>
+      <th>in_apple_playlists</th>
+      <th>...</th>
+      <th>mode</th>
+      <th>danceability_%</th>
+      <th>valence_%</th>
+      <th>energy_%</th>
+      <th>acousticness_%</th>
+      <th>instrumentalness_%</th>
+      <th>liveness_%</th>
+      <th>speechiness_%</th>
+      <th>key_mapping</th>
+      <th>mode_mapping</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Seven (feat. Latto) (Explicit Ver.)</td>
+      <td>[Latto, Jung Kook]</td>
+      <td>2</td>
+      <td>2023</td>
+      <td>7</td>
+      <td>14</td>
+      <td>553</td>
+      <td>147</td>
+      <td>141381703</td>
+      <td>43</td>
+      <td>...</td>
+      <td>Major</td>
+      <td>80</td>
+      <td>89</td>
+      <td>83</td>
+      <td>31</td>
+      <td>0</td>
+      <td>8</td>
+      <td>4</td>
+      <td>2</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>LALA</td>
+      <td>[Myke Towers]</td>
+      <td>1</td>
+      <td>2023</td>
+      <td>3</td>
+      <td>23</td>
+      <td>1474</td>
+      <td>48</td>
+      <td>133716286</td>
+      <td>48</td>
+      <td>...</td>
+      <td>Major</td>
+      <td>71</td>
+      <td>61</td>
+      <td>74</td>
+      <td>7</td>
+      <td>0</td>
+      <td>10</td>
+      <td>4</td>
+      <td>4</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>vampire</td>
+      <td>[Olivia Rodrigo]</td>
+      <td>1</td>
+      <td>2023</td>
+      <td>6</td>
+      <td>30</td>
+      <td>1397</td>
+      <td>113</td>
+      <td>140003974</td>
+      <td>94</td>
+      <td>...</td>
+      <td>Major</td>
+      <td>51</td>
+      <td>32</td>
+      <td>53</td>
+      <td>17</td>
+      <td>0</td>
+      <td>31</td>
+      <td>6</td>
+      <td>8</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Cruel Summer</td>
+      <td>[Taylor Swift]</td>
+      <td>1</td>
+      <td>2019</td>
+      <td>8</td>
+      <td>23</td>
+      <td>7858</td>
+      <td>100</td>
+      <td>800840817</td>
+      <td>116</td>
+      <td>...</td>
+      <td>Major</td>
+      <td>55</td>
+      <td>58</td>
+      <td>72</td>
+      <td>11</td>
+      <td>0</td>
+      <td>11</td>
+      <td>15</td>
+      <td>0</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>WHERE SHE GOES</td>
+      <td>[Bad Bunny]</td>
+      <td>1</td>
+      <td>2023</td>
+      <td>5</td>
+      <td>18</td>
+      <td>3133</td>
+      <td>50</td>
+      <td>303236322</td>
+      <td>84</td>
+      <td>...</td>
+      <td>Minor</td>
+      <td>65</td>
+      <td>23</td>
+      <td>80</td>
+      <td>14</td>
+      <td>63</td>
+      <td>11</td>
+      <td>6</td>
+      <td>0</td>
+      <td>False</td>
+    </tr>
+  </tbody>
+</table>
+<p>5 rows × 26 columns</p>
+</div>
+</div>
+</div>
+<section id="part-3-exploratory-analysis--data-visualization"
+class="cell markdown">
+<h2>Part 3: Exploratory Analysis &amp; Data Visualization</h2>
+</section>
+<div class="cell markdown">
+<p>Now that we have acquired our data and done the necessary cleanup on
+it. The next part of the data science life cycle is data analysis and
+visualization. Within this section we will be taking advantage of graphs
+to be able to visualize trends within the data; being able to visualize
+the data will allow us to gain some statistical knowledge and help us
+decide what we actually want to do with the data.</p>
+</div>
+<div class="cell markdown">
+<p>Firstly, streams are an important part of the success of a song, so
+we initially be looking at the distribution of streams for all songs -
+this allows us to visualize where our data lies in relation to each
+other, do we have many songs with a lot of streams, few with many, many
+with few, etc?</p>
+</div>
+<div class="cell code" data-execution_count="11">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate mean and standard deviation of streams</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>mean_streams <span class="op">=</span> df_master[<span class="st">&#39;streams&#39;</span>].mean()</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>std_streams <span class="op">=</span> df_master[<span class="st">&#39;streams&#39;</span>].std()</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&#39;Mean: </span><span class="sc">{</span>mean_streams<span class="sc">}</span><span class="ss">&#39;</span>)</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&#39;Standard Deviation: </span><span class="sc">{</span>std_streams<span class="sc">}</span><span class="ss">&#39;</span>)</span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a histogram</span></span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">12</span>, <span class="dv">8</span>))  <span class="co"># Set the figure size</span></span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a>plt.hist(df_master[<span class="st">&#39;streams&#39;</span>], bins<span class="op">=</span><span class="dv">30</span>, alpha<span class="op">=</span><span class="fl">0.7</span>, color<span class="op">=</span><span class="st">&#39;lightblue&#39;</span>, edgecolor<span class="op">=</span><span class="st">&#39;black&#39;</span>)</span>
+<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-11"><a href="#cb15-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Add vertical lines for mean and mean +/- standard deviation</span></span>
+<span id="cb15-12"><a href="#cb15-12" aria-hidden="true" tabindex="-1"></a>plt.axvline(mean_streams, color<span class="op">=</span><span class="st">&#39;red&#39;</span>, linestyle<span class="op">=</span><span class="st">&#39;dashed&#39;</span>, linewidth<span class="op">=</span><span class="dv">2</span>, label<span class="op">=</span><span class="ss">f&#39;Mean: </span><span class="sc">{</span>mean_streams<span class="sc">:.2f}</span><span class="ss">&#39;</span>)</span>
+<span id="cb15-13"><a href="#cb15-13" aria-hidden="true" tabindex="-1"></a>plt.axvline(mean_streams <span class="op">+</span> std_streams, color<span class="op">=</span><span class="st">&#39;orange&#39;</span>, linestyle<span class="op">=</span><span class="st">&#39;dotted&#39;</span>, linewidth<span class="op">=</span><span class="dv">2</span>, label<span class="op">=</span><span class="ss">f&#39;Mean + 1 Std: </span><span class="sc">{</span>mean_streams <span class="op">+</span> std_streams<span class="sc">:.2f}</span><span class="ss">&#39;</span>)</span>
+<span id="cb15-14"><a href="#cb15-14" aria-hidden="true" tabindex="-1"></a>plt.axvline(mean_streams <span class="op">-</span> std_streams, color<span class="op">=</span><span class="st">&#39;orange&#39;</span>, linestyle<span class="op">=</span><span class="st">&#39;dotted&#39;</span>, linewidth<span class="op">=</span><span class="dv">2</span>, label<span class="op">=</span><span class="ss">f&#39;Mean - 1 Std: </span><span class="sc">{</span>mean_streams <span class="op">-</span> std_streams<span class="sc">:.2f}</span><span class="ss">&#39;</span>)</span>
+<span id="cb15-15"><a href="#cb15-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-16"><a href="#cb15-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Name the axes and set the title</span></span>
+<span id="cb15-17"><a href="#cb15-17" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Streams&#39;</span>)</span>
+<span id="cb15-18"><a href="#cb15-18" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Frequency&#39;</span>)</span>
+<span id="cb15-19"><a href="#cb15-19" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Distribution of Streams for All Songs&#39;</span>)</span>
+<span id="cb15-20"><a href="#cb15-20" aria-hidden="true" tabindex="-1"></a>plt.legend()</span>
+<span id="cb15-21"><a href="#cb15-21" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Mean: 468985764.4080882
+Standard Deviation: 523126748.2142802
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_a0d01c4259604774a5ff3a86609a0b8b/00b790a3ca85a6d301bdd2ee9480c45fe05f11b9.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>With the graph above, we can see that a large frequency of songs have
+streams lower than the mean; most songs have a lower number of streams,
+suggesting that while some songs achieve high popularity, the majority
+do not. Also, we can see that the standard deviation is extremely high,
+this means that there is significant variability in the number of
+streams among songs - the outliers within our data, are very much
+outliers. We have songs with 3.5 billion streams which is around 5.79
+standard deviations away from the mean; this is something we have to
+keep in mind when predicting values as this creates large variance.</p>
+</div>
+<div class="cell markdown">
+<p>Now that we have an idea of the distribution of streams, what we can
+do next is to see how the other features relate to the number of streams
+a song has. In our case, we will be using the "musical elements" of the
+song and their correlation to streams.</p>
+</div>
+<div class="cell code" data-execution_count="12">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Musical Elements in relation to the Streams</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot danceability, energy, liveness, speechiness against Total Streams</span></span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>elements <span class="op">=</span> [<span class="st">&quot;danceability_%&quot;</span>, <span class="st">&quot;energy_%&quot;</span>, <span class="st">&quot;liveness_%&quot;</span>, <span class="st">&quot;speechiness_%&quot;</span>, <span class="st">&quot;bpm&quot;</span>, <span class="st">&quot;key&quot;</span>]</span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>colors <span class="op">=</span> [<span class="st">&#39;blue&#39;</span>, <span class="st">&#39;green&#39;</span>, <span class="st">&#39;red&#39;</span>, <span class="st">&#39;orange&#39;</span>, <span class="st">&#39;pink&#39;</span>, <span class="st">&#39;purple&#39;</span>]</span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a>mean_streams <span class="op">=</span> np.mean(df_master[<span class="st">&#39;streams&#39;</span>])</span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a>std_streams <span class="op">=</span> np.std(df_master[<span class="st">&#39;streams&#39;</span>])</span>
+<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Standardize the &#39;streams&#39; feature</span></span>
+<span id="cb17-10"><a href="#cb17-10" aria-hidden="true" tabindex="-1"></a>df_master[<span class="st">&#39;streams_standardized&#39;</span>] <span class="op">=</span> (df_master[<span class="st">&#39;streams&#39;</span>] <span class="op">-</span> mean_streams) <span class="op">/</span> std_streams</span>
+<span id="cb17-11"><a href="#cb17-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-12"><a href="#cb17-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a scatter plot</span></span>
+<span id="cb17-13"><a href="#cb17-13" aria-hidden="true" tabindex="-1"></a>fig, axes <span class="op">=</span> plt.subplots(nrows<span class="op">=</span><span class="dv">3</span>, ncols<span class="op">=</span><span class="dv">2</span>, figsize<span class="op">=</span>(<span class="dv">15</span>, <span class="dv">15</span>))</span>
+<span id="cb17-14"><a href="#cb17-14" aria-hidden="true" tabindex="-1"></a>axes <span class="op">=</span> axes.flatten()</span>
+<span id="cb17-15"><a href="#cb17-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-16"><a href="#cb17-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Iterate over each musical element</span></span>
+<span id="cb17-17"><a href="#cb17-17" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i, element <span class="kw">in</span> <span class="bu">enumerate</span>(elements):</span>
+<span id="cb17-18"><a href="#cb17-18" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Create a scatter plot for the current element</span></span>
+<span id="cb17-19"><a href="#cb17-19" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> element <span class="op">==</span> <span class="st">&quot;key&quot;</span>:</span>
+<span id="cb17-20"><a href="#cb17-20" aria-hidden="true" tabindex="-1"></a>        songs_by_key <span class="op">=</span> df_master.groupby(<span class="st">&#39;key&#39;</span>)[<span class="st">&#39;streams&#39;</span>].<span class="bu">sum</span>()</span>
+<span id="cb17-21"><a href="#cb17-21" aria-hidden="true" tabindex="-1"></a>        plt.bar(songs_by_key.index.astype(<span class="bu">str</span>), songs_by_key.values, color<span class="op">=</span>colors[i])</span>
+<span id="cb17-22"><a href="#cb17-22" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb17-23"><a href="#cb17-23" aria-hidden="true" tabindex="-1"></a>        axes[i].scatter(df_master[element], df_master[<span class="st">&#39;streams_standardized&#39;</span>], color<span class="op">=</span>colors[i])</span>
+<span id="cb17-24"><a href="#cb17-24" aria-hidden="true" tabindex="-1"></a>        axes[i].grid(<span class="va">True</span>)</span>
+<span id="cb17-25"><a href="#cb17-25" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb17-26"><a href="#cb17-26" aria-hidden="true" tabindex="-1"></a>    axes[i].set_xlabel(element)</span>
+<span id="cb17-27"><a href="#cb17-27" aria-hidden="true" tabindex="-1"></a>    axes[i].set_ylabel(<span class="st">&#39;Streams (Standardized)&#39;</span>)</span>
+<span id="cb17-28"><a href="#cb17-28" aria-hidden="true" tabindex="-1"></a>    axes[i].set_title(<span class="ss">f&#39;</span><span class="sc">{</span>element<span class="sc">}</span><span class="ss"> vs Streams&#39;</span>)</span>
+<span id="cb17-29"><a href="#cb17-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-30"><a href="#cb17-30" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb17-31"><a href="#cb17-31" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_a0d01c4259604774a5ff3a86609a0b8b/d9b6428464bbf5c1c8d790707c41d430ecc5c124.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<ul>
+<li>Danceability
+<ul>
+<li>The correlation that danceability has with streams seems to be
+pretty low. The spread of the data doesn't imply some relation that we
+can utilize; the general distribution of the danceability of songs seems
+to be between 60-80, however the points with higher streams aren't
+clustered around any specific range.</li>
+</ul></li>
+<li>Energy
+<ul>
+<li>The energy follows much of the same as danceability; here, the
+general distribution of energy lies within the 40-80 range, and, again,
+the streams are not clustered around any range. This seems to imply that
+the success of a song doesn't have much to do with the energy.</li>
+</ul></li>
+<li>Liveness
+<ul>
+<li>The liveness feature does provide a different graph, when compared
+to the previous, we can see that the liveness score is clustered around
+the 0-40 range, and the streams seem to be higher when the liveness is
+~10. However, this could simply be because songs tend to have a lower
+liveness score, and since so many with a lower score exist, one with a
+large number of streams is bound to exist.</li>
+</ul></li>
+<li>Speechiness
+<ul>
+<li>Speechiness seems to be similar to the liveness, in relation to
+streams. This range lies closer to 0-10, and similar to liveness, it
+just might be the case since so many exist in that range, theres bound
+to be a song with a large number of streams.</li>
+</ul></li>
+<li>BPM
+<ul>
+<li>BPM is similar to danceability and energy, there doesn't seem to be
+some correlation between these variables.</li>
+</ul></li>
+<li>Key
+<ul>
+<li>When looking at the key bar graph, we can see a large total stream
+amount for C#; this could imply that songs written in that key tend to
+be more popular. One thing we have to keep in mind however, is that our
+data has large outliers, which means that the C# group could be
+"boosted" because of a couple songs with a large stream count.</li>
+</ul></li>
+</ul>
+</div>
+<div class="cell markdown">
+<p>Time is an important aspect of our data that we have to further delve
+into. We will initially be looking at how the release month of the song
+relates to total streams. One thing we must keep in mind is that songs
+that are released further back have more time to accrue streams. In this
+case, however, we are simply looking at month, irrespective of year, in
+relation to streams to possibly see some correlation between release
+month and total number of streams.</p>
+</div>
+<div class="cell code" data-execution_count="13">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Group the song by release month and calculate Mean streams for each month</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>monthly_streams <span class="op">=</span> df_master.groupby(<span class="st">&#39;released_month&#39;</span>)[<span class="st">&#39;streams&#39;</span>].mean()</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>months <span class="op">=</span> [<span class="st">&#39;Jan&#39;</span>, <span class="st">&#39;Feb&#39;</span>, <span class="st">&#39;Mar&#39;</span>, <span class="st">&#39;Apr&#39;</span>, <span class="st">&#39;May&#39;</span>, <span class="st">&#39;Jun&#39;</span>, <span class="st">&#39;Jul&#39;</span>, <span class="st">&#39;Aug&#39;</span>, <span class="st">&#39;Sep&#39;</span>, <span class="st">&#39;Oct&#39;</span>, <span class="st">&#39;Nov&#39;</span>, <span class="st">&#39;Dec&#39;</span>]</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a bar plot</span></span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>plt.bar(monthly_streams.index, monthly_streams.values)</span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Month&#39;</span>)</span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Mean Streams&#39;</span>)</span>
+<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Mean Streams by Month&#39;</span>)</span>
+<span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Set the x-axis ticks to represent the months</span></span>
+<span id="cb18-11"><a href="#cb18-11" aria-hidden="true" tabindex="-1"></a>plt.xticks(<span class="bu">range</span>(<span class="dv">1</span>, <span class="dv">13</span>), months, fontsize<span class="op">=</span><span class="dv">12</span>)</span>
+<span id="cb18-12"><a href="#cb18-12" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_a0d01c4259604774a5ff3a86609a0b8b/b8ed41018be4cdb906929985d9dc1ee6c660904a.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>Here we can see that January and September has the highest number of
+streams, with May, June, Feburary, and December with the lowest. When
+considering this data it is important to note that Februrary's score
+would naturally be lower given that it has fewer days than other
+months.</p>
+<p>It is also important to check for outliers. Lets display the top 5
+songs for each month to search for them.</p>
+</div>
+<div class="cell code" data-execution_count="14">
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co"># For every month, display the top 5 songs that were released within it</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Group by release month</span></span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> month,group <span class="kw">in</span> df_master.groupby(<span class="st">&#39;released_month&#39;</span>):</span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Get top 5</span></span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a>    top_songs_per_month <span class="op">=</span> group.nlargest(<span class="dv">5</span>, <span class="st">&#39;streams&#39;</span>)</span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;</span><span class="ch">\n</span><span class="ss">Top songs for </span><span class="sc">{</span>months[month<span class="op">-</span><span class="dv">1</span>]<span class="sc">}</span><span class="ss">:&quot;</span>)</span>
+<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> index, row <span class="kw">in</span> top_songs_per_month.iterrows():</span>
+<span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f&quot;Title: </span><span class="sc">{</span>row[<span class="st">&#39;track_name&#39;</span>]<span class="sc">.</span>ljust(<span class="dv">50</span>)<span class="sc">}</span><span class="ss">Streams: </span><span class="sc">{</span>row[<span class="st">&#39;streams&#39;</span>]<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>
+Top songs for Jan:
+Title: Shape of You                                      Streams: 3562543890
+Title: Believer                                          Streams: 2594040133
+Title: Perfect                                           Streams: 2559529074
+Title: Thinking Out Loud                                 Streams: 2280566092
+Title: Counting Stars                                    Streams: 2011464183
+
+Top songs for Feb:
+Title: Something Just Like This                          Streams: 2204080728
+Title: The Night We Met                                  Streams: 1410088830
+Title: Everybody Wants To Rule The World                 Streams: 1205951614
+Title: Dark Red                                          Streams: 920045682
+Title: La Santa                                          Streams: 759208783
+
+Top songs for Mar:
+Title: HUMBLE.                                           Streams: 1929770265
+Title: Levitating (feat. DaBaby)                         Streams: 1802514301
+Title: Call Out My Name                                  Streams: 1449799467
+Title: Numb                                              Streams: 1361425037
+Title: Heather                                           Streams: 1301799902
+
+Top songs for Apr:
+Title: One Dance                                         Streams: 2713922350
+Title: Kiss Me More (feat. SZA)                          Streams: 1575467011
+Title: deja vu                                           Streams: 1256880657
+Title: you broke me first                                Streams: 1180094974
+Title: Dandelions                                        Streams: 1116995633
+
+Top songs for May:
+Title: Closer                                            Streams: 2591224264
+Title: &#39;Till I Collapse                                  Streams: 1695712020
+Title: Me Porto Bonito                                   Streams: 1440757818
+Title: Let Me Down Slowly                                Streams: 1374581173
+Title: Callaita                                          Streams: 1304313953
+
+Top songs for Jun:
+Title: Seï¿½ï¿½o                                         Streams: 2484812918
+Title: Lucid Dreams                                      Streams: 2288695111
+Title: Photograph                                        Streams: 2236667932
+Title: LA CANCIï¿½                                       Streams: 1435127549
+Title: Yonaguni                                          Streams: 1260594497
+
+Top songs for Jul:
+Title: STAY (with Justin Bieber)                         Streams: 2665343922
+Title: Quevedo: Bzrp Music Sessions, Vol. 52             Streams: 1356565093
+Title: See You Again                                     Streams: 1047101291
+Title: Where Are You Now                                 Streams: 972509632
+Title: DESPECHï¿½                                        Streams: 782369383
+
+Top songs for Aug:
+Title: lovely - Bonus Track                              Streams: 2355719893
+Title: All of Me                                         Streams: 2086124197
+Title: Can&#39;t Hold Us (feat. Ray Dalton)                  Streams: 1953533826
+Title: The Scientist                                     Streams: 1608164312
+Title: I&#39;m Good (Blue)                                   Streams: 1109433169
+
+Top songs for Sep:
+Title: Starboy                                           Streams: 2565529693
+Title: Say You Won&#39;t Let Go                              Streams: 2420461338
+Title: Shallow                                           Streams: 2159346687
+Title: Take Me To Church                                 Streams: 2135158446
+Title: Mr. Brightside                                    Streams: 1806617704
+
+Top songs for Oct:
+Title: Sunflower - Spider-Man: Into the Spider-Verse     Streams: 2808096550
+Title: Don&#39;t Start Now                                   Streams: 2303033973
+Title: Dakiti                                            Streams: 1763363713
+Title: In The End                                        Streams: 1624165576
+Title: Take On Me                                        Streams: 1479115056
+
+Top songs for Nov:
+Title: Love Yourself                                     Streams: 2123309722
+Title: Die For You                                       Streams: 1647990401
+Title: Before You Go                                     Streams: 1608045237
+Title: Cold Heart - PNAU Remix                           Streams: 1605224506
+Title: Rolling in the Deep                               Streams: 1472799873
+
+Top songs for Dec:
+Title: No Role Modelz                                    Streams: 1791000570
+Title: Locked Out Of Heaven                              Streams: 1481349984
+Title: Adore You                                         Streams: 1439191367
+Title: Beggin                                            Streams: 1367810478
+Title: Kill Bill                                         Streams: 1163093654
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>When analyzing the data Janurary has the only song with over 3
+billion streams, which is "Shape of You". In addition October had the
+song with the second highest number of streams, but when looking at the
+sums these top five get, we get this:</p>
+<p>January: 13,008,143,372</p>
+<p>February: 6,499,375,637</p>
+<p>March: 7,845,308,972</p>
+<p>April: 7,843,360,625</p>
+<p>May: 8,406,589,228</p>
+<p>June: 9,705,898,007</p>
+<p>July: 6,823,889,321</p>
+<p>August: 9,112,975,397</p>
+<p>September: 11,087,113,868</p>
+<p>October: 9,977,774,868</p>
+<p>November: 8,457,369,739</p>
+<p>December: 7,242,446,053</p>
+<p>With the exception of June, the rest of the months mirror the top
+monthly streams, further indicating the prevelance of outliers. Another
+variable we could consider is the number of songs released to see if
+that impacts the number of streams.</p>
+</div>
+<div class="cell code" data-execution_count="15">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a violin plot</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>,<span class="dv">6</span>))  <span class="co"># Set the figure size</span></span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>sns.countplot(x<span class="op">=</span><span class="st">&#39;released_month&#39;</span>, data<span class="op">=</span>df_master, hue<span class="op">=</span><span class="st">&#39;released_month&#39;</span>, palette<span class="op">=</span><span class="st">&quot;Set1&quot;</span>)</span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a>plt.legend().set_visible(<span class="va">False</span>)</span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Month&#39;</span>)</span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Number of Songs&#39;</span>)</span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Distribution of Song Release Date Across Months&#39;</span>)</span>
+<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Set the x-axis ticks to represent the months</span></span>
+<span id="cb21-9"><a href="#cb21-9" aria-hidden="true" tabindex="-1"></a>plt.xticks(<span class="bu">range</span>(<span class="dv">0</span>, <span class="dv">12</span>), [<span class="st">&#39;Jan&#39;</span>, <span class="st">&#39;Feb&#39;</span>, <span class="st">&#39;Mar&#39;</span>, <span class="st">&#39;Apr&#39;</span>, <span class="st">&#39;May&#39;</span>, <span class="st">&#39;Jun&#39;</span>, <span class="st">&#39;Jul&#39;</span>, <span class="st">&#39;Aug&#39;</span>, <span class="st">&#39;Sep&#39;</span>, <span class="st">&#39;Oct&#39;</span>, <span class="st">&#39;Nov&#39;</span>, <span class="st">&#39;Dec&#39;</span>])</span>
+<span id="cb21-10"><a href="#cb21-10" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_a0d01c4259604774a5ff3a86609a0b8b/d5f919be30e5b93122a4a525e9d094b5d3ab4986.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>We can see that January produced the top 2 most songs, which was the
+same for release month streams. In contrast, despite May have a low
+release month streams, it also produces the top 2 amount of songs. Given
+this conflicting data, lets also check how release year plays into
+number of streams.</p>
+</div>
+<div class="cell code" data-execution_count="16">
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Show the Distribution of Songs based on their Release Date</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>song_release_year <span class="op">=</span> df_master.groupby(<span class="st">&#39;released_year&#39;</span>).size()</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a bar chart</span></span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">15</span>, <span class="dv">8</span>))</span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Distribution of Songs Based on Release Year&#39;</span>)</span>
+<span id="cb22-7"><a href="#cb22-7" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Year&#39;</span>, fontsize<span class="op">=</span><span class="dv">16</span>)</span>
+<span id="cb22-8"><a href="#cb22-8" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Number of Songs&#39;</span>)</span>
+<span id="cb22-9"><a href="#cb22-9" aria-hidden="true" tabindex="-1"></a>plt.bar(song_release_year.index.astype(<span class="bu">str</span>), song_release_year.values, color<span class="op">=</span><span class="st">&#39;orange&#39;</span>)</span>
+<span id="cb22-10"><a href="#cb22-10" aria-hidden="true" tabindex="-1"></a>plt.xticks(rotation<span class="op">=</span><span class="dv">90</span>)</span>
+<span id="cb22-11"><a href="#cb22-11" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_a0d01c4259604774a5ff3a86609a0b8b/e34a9e980fdf866f2d83895bcc2876926890422c.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>Here we see there is a huge prevalence of 2022 songs in the
+dataframe. After that we see 2023 with the second highest and 2021 as
+the third. Given that the dataframe features the top spotify songs of
+2023, we could infer that newer songs will have a higher average ranking
+in the spotify charts. Because of the large spread of yearly release
+dates, we can also infer that certain classics stay on the spotify
+charts. The higher value of 2022 songs versus 2023 goes against the idea
+of newer songs performing the best, but that could be explained as the
+2023 songs not having enough time to properly gain traction with the
+spotify user base.</p>
+</div>
+<div class="cell code" data-execution_count="17">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Explore the top 10 best artist in the data set and make a bar plot</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>all_artists <span class="op">=</span> pd.Series([artist <span class="cf">for</span> sublist <span class="kw">in</span> df_master[<span class="st">&#39;artist&#39;</span>] <span class="cf">for</span> artist <span class="kw">in</span> sublist])</span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>artist_counts <span class="op">=</span> all_artists.value_counts()</span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>top_artists <span class="op">=</span> artist_counts.head(<span class="dv">10</span>)</span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot the bar plot using seaborn</span></span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a>colors <span class="op">=</span> sns.color_palette(<span class="st">&#39;magma&#39;</span>, <span class="bu">len</span>(top_artists))</span>
+<span id="cb23-8"><a href="#cb23-8" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">12</span>, <span class="dv">6</span>))</span>
+<span id="cb23-9"><a href="#cb23-9" aria-hidden="true" tabindex="-1"></a>bars <span class="op">=</span> plt.barh(top_artists.index, top_artists.values, color<span class="op">=</span>colors)</span>
+<span id="cb23-10"><a href="#cb23-10" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Number of Songs&#39;</span>)</span>
+<span id="cb23-11"><a href="#cb23-11" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Artist(s) Name&#39;</span>)</span>
+<span id="cb23-12"><a href="#cb23-12" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Top 10 Artists with Most Songs&#39;</span>)</span>
+<span id="cb23-13"><a href="#cb23-13" aria-hidden="true" tabindex="-1"></a>plt.gca().invert_yaxis()  <span class="co"># Ensure the top artist is at the top of the plot</span></span>
+<span id="cb23-14"><a href="#cb23-14" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_a0d01c4259604774a5ff3a86609a0b8b/122467303fc462e2d2766a63e9d84b84ccd565da.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>Next, the artist featured on a song has a large impact on its
+potentional success. We can see above the following artists that have
+the most top songs in 2023.</p>
+</div>
+<div class="cell code" data-execution_count="18">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot the top 10 artists based on number of streams</span></span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>df_master[<span class="st">&#39;streams&#39;</span>] <span class="op">=</span> pd.to_numeric(df_master[<span class="st">&#39;streams&#39;</span>], errors<span class="op">=</span><span class="st">&#39;coerce&#39;</span>)</span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> []</span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> _, row <span class="kw">in</span> df_master.iterrows():</span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> artist <span class="kw">in</span> row[<span class="st">&#39;artist&#39;</span>]:</span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a>        data.append({<span class="st">&#39;artist&#39;</span>: artist, <span class="st">&#39;streams&#39;</span>: row[<span class="st">&#39;streams&#39;</span>]})</span>
+<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-8"><a href="#cb24-8" aria-hidden="true" tabindex="-1"></a>flat_df <span class="op">=</span> pd.DataFrame(data)</span>
+<span id="cb24-9"><a href="#cb24-9" aria-hidden="true" tabindex="-1"></a>artist_streams <span class="op">=</span> flat_df.groupby(<span class="st">&#39;artist&#39;</span>)[<span class="st">&#39;streams&#39;</span>].<span class="bu">sum</span>()</span>
+<span id="cb24-10"><a href="#cb24-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-11"><a href="#cb24-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Get the top 10 artists</span></span>
+<span id="cb24-12"><a href="#cb24-12" aria-hidden="true" tabindex="-1"></a>top_10_artists <span class="op">=</span> artist_streams.nlargest(<span class="dv">10</span>)</span>
+<span id="cb24-13"><a href="#cb24-13" aria-hidden="true" tabindex="-1"></a>colors <span class="op">=</span> sns.color_palette(<span class="st">&#39;magma&#39;</span>, <span class="bu">len</span>(top_10_artists))</span>
+<span id="cb24-14"><a href="#cb24-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-15"><a href="#cb24-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot the data</span></span>
+<span id="cb24-16"><a href="#cb24-16" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
+<span id="cb24-17"><a href="#cb24-17" aria-hidden="true" tabindex="-1"></a>top_10_artists.plot(kind<span class="op">=</span><span class="st">&#39;bar&#39;</span>, color<span class="op">=</span>colors)</span>
+<span id="cb24-18"><a href="#cb24-18" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Top 10 Artists by Total Streams&#39;</span>)</span>
+<span id="cb24-19"><a href="#cb24-19" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Artist&#39;</span>)</span>
+<span id="cb24-20"><a href="#cb24-20" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Total Streams (Billions)&#39;</span>)</span>
+<span id="cb24-21"><a href="#cb24-21" aria-hidden="true" tabindex="-1"></a>plt.xticks(rotation<span class="op">=</span><span class="dv">35</span>, ha<span class="op">=</span><span class="st">&#39;right&#39;</span>)</span>
+<span id="cb24-22"><a href="#cb24-22" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_a0d01c4259604774a5ff3a86609a0b8b/5efe0bd24da7ce19374dc0acd27dfbdf1412a49a.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>Now, we look at the top 10 artists with the most streams. As with
+number of releases, Bad Bunny, the Weekend, and Taylor Swift all were
+top 3 in both metrics, signifying their importance when it comes to
+producing popular music.</p>
+</div>
+<div class="cell markdown">
+<p>Lastly, we create a heatmap in order to identify if there's
+correlation beteween any variables of interest that we haven't yet
+considered.</p>
+</div>
+<div class="cell code" data-execution_count="19">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>variables_of_interest <span class="op">=</span> [<span class="st">&#39;streams&#39;</span>, <span class="st">&#39;artist_count&#39;</span>, <span class="st">&#39;released_year&#39;</span>,<span class="st">&#39;released_month&#39;</span>,<span class="st">&#39;released_day&#39;</span>,<span class="st">&#39;in_spotify_playlists&#39;</span>,<span class="st">&#39;in_spotify_charts&#39;</span>,</span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;in_apple_playlists&#39;</span>,<span class="st">&#39;in_apple_charts&#39;</span>,<span class="st">&#39;in_deezer_playlists&#39;</span>,<span class="st">&#39;in_deezer_charts&#39;</span>,<span class="st">&#39;in_shazam_charts&#39;</span>,<span class="st">&#39;bpm&#39;</span>, <span class="st">&quot;key_mapping&quot;</span>,</span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>             <span class="st">&quot;mode_mapping&quot;</span>, <span class="st">&#39;danceability_%&#39;</span>,<span class="st">&#39;valence_%&#39;</span>,<span class="st">&#39;energy_%&#39;</span>,<span class="st">&#39;acousticness_%&#39;</span>,<span class="st">&#39;instrumentalness_%&#39;</span>,<span class="st">&#39;liveness_%&#39;</span>,<span class="st">&#39;speechiness_%&#39;</span>]</span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Select the subset of the DataFrame containing only the variables of interest</span></span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a>subset_df <span class="op">=</span> df_master[variables_of_interest]</span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a>correlation_matrix <span class="op">=</span> subset_df.corr()</span>
+<span id="cb25-8"><a href="#cb25-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-9"><a href="#cb25-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a heatmap</span></span>
+<span id="cb25-10"><a href="#cb25-10" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">8</span>))  <span class="co"># Set the figure size</span></span>
+<span id="cb25-11"><a href="#cb25-11" aria-hidden="true" tabindex="-1"></a>sns.heatmap(correlation_matrix, annot<span class="op">=</span><span class="va">True</span>, cmap<span class="op">=</span><span class="st">&#39;coolwarm&#39;</span>, fmt<span class="op">=</span><span class="st">&quot;.2f&quot;</span>, annot_kws<span class="op">=</span>{<span class="st">&quot;size&quot;</span>: <span class="dv">10</span>})</span>
+<span id="cb25-12"><a href="#cb25-12" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Correlation Heatmap&#39;</span>)</span>
+<span id="cb25-13"><a href="#cb25-13" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_a0d01c4259604774a5ff3a86609a0b8b/6582c987efb69551adcf02e112666287fe56bc14.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>Let's look at the color of each cell to see the strength and
+direction of the correlations. Darker colors indicate stronger
+correlations, while lighter colors indicate weaker correlations.
+Positive correlations (when one variable increases, the other variable
+tends to increase) are usually represented by warm colors, such as red
+or orange. Negative correlations (when one variable increases, the other
+variable tends to decrease) are usually represented by cool colors, such
+as blue or green.</p>
+<p>We see a high correlation between streams and rank in playlists, this
+suggests that a song's success on a platform would most likely also
+translate to success on another platform. We could also see the postive
+correlation between the valence, which measures how positive a song is,
+and the danceability. The more positive the song is, the higher the
+danceability and energy. There's also the negative correlation between
+the energy and the acousticness of the song.</p>
+</div>
+<section
+id="part-4-model-data-transformation-analysis-hypothesis-testing-machine-learning"
+class="cell markdown">
+<h2>Part 4: Model: Data Transformation, Analysis, Hypothesis Testing,
+Machine Learning</h2>
+</section>
+<div class="cell markdown">
+<p>In this part of the Data Science Pipeline we now analyze our data in
+order to develop predictive models of the data that we collected. By
+doing this we can use elements of an existing song and be able to
+predict how successful it will be.</p>
+</div>
+<div class="cell markdown">
+<p><strong>Hypothesis Testing</strong></p>
+<p>Hypothesis Testing is the process of taking our sample data and
+determining whether or not an assumption (our hypothesis) holds true. In
+this process we first create our hypothesis. Then from that, we create a
+null hypothesis (our hypothesis isn’t significant), or the alternative
+hypothesis (our hypothesis holds significance). We then set a
+significance level which determines the minimum likelihood needed for a
+hypothesis to have significant effect, otherwise known as a p-value.
+Then we look at our data to decide on a test statistic and compare it to
+the significance level to determine if a hypothesis is null or
+alternative (we usually want an alternative hypothesis).</p>
+<p>Learn more here: <a
+href="https://www.kdnuggets.com/2023/02/hypothesis-testing-data-science.html"
+class="uri">https://www.kdnuggets.com/2023/02/hypothesis-testing-data-science.html</a></p>
+</div>
+<div class="cell markdown">
+<p><strong>Data Transformation to Address Skew</strong></p>
+</div>
+<div class="cell markdown">
+<p>From the plots above, we can see some of the features being skewed.
+Let's look at how skewed our data for the songs are in terms of their
+speechiness, danceability, liveness, instrumentalness, energy, valence,
+acousticness, and bpm.</p>
+</div>
+<div class="cell code" data-execution_count="20">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df_master[<span class="st">&#39;speechiness_%&#39;</span>].skew())</span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df_master[<span class="st">&#39;danceability_%&#39;</span>].skew())</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df_master[<span class="st">&#39;liveness_%&#39;</span>].skew())</span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df_master[<span class="st">&#39;instrumentalness_%&#39;</span>].skew())</span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df_master[<span class="st">&#39;energy_%&#39;</span>].skew())</span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df_master[<span class="st">&#39;valence_%&#39;</span>].skew())</span>
+<span id="cb26-7"><a href="#cb26-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df_master[<span class="st">&#39;acousticness_%&#39;</span>].skew())</span>
+<span id="cb26-8"><a href="#cb26-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df_master[<span class="st">&#39;bpm&#39;</span>].skew())</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>1.8331109487144102
+-0.4544746445596342
+2.133235379055188
+6.897938489992846
+-0.38072340103730046
+0.024200599326330785
+0.9702110743781299
+0.43122396597614276
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>As we can see, features such as speechiness, liveness,
+instrumentalness are extremely right-skewed. Let's try Log
+Transformation on these features because it handles right-skewdness well
+by compressing the range the data and reduce the impact of large values.
+Acousticness is moderately right-skewed so we would like to apply Square
+Root Transformation. Ideally, we would want features to be as normally
+distributed as possible because most machine learning models assume
+normally distributed data for optimal performance.</p>
+</div>
+<div class="cell code" data-execution_count="21">
+<div class="sourceCode" id="cb28"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="co"># np.log1p(x) is equivalent to np.log(1 + x)</span></span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>df_master[<span class="st">&#39;speechiness_log&#39;</span>] <span class="op">=</span> np.log1p(df_master[<span class="st">&#39;speechiness_%&#39;</span>])</span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a>df_master[<span class="st">&#39;liveness_log&#39;</span>] <span class="op">=</span> np.log1p(df_master[<span class="st">&#39;liveness_%&#39;</span>])</span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a>df_master[<span class="st">&#39;instrumentalness_log&#39;</span>] <span class="op">=</span> np.log1p(df_master[<span class="st">&#39;instrumentalness_%&#39;</span>])</span>
+<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-6"><a href="#cb28-6" aria-hidden="true" tabindex="-1"></a>df_master[<span class="st">&#39;acousticness_sqrt&#39;</span>] <span class="op">=</span> np.sqrt(df_master[<span class="st">&#39;acousticness_%&#39;</span>])</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>Here are the skewness scores after transformations</p>
+</div>
+<div class="cell code" data-execution_count="22">
+<div class="sourceCode" id="cb29"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df_master[<span class="st">&#39;speechiness_log&#39;</span>].skew())</span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df_master[<span class="st">&#39;liveness_log&#39;</span>].skew())</span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df_master[<span class="st">&#39;instrumentalness_log&#39;</span>].skew())</span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df_master[<span class="st">&#39;acousticness_sqrt&#39;</span>].skew())</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>0.8463951864688193
+0.6325389594905945
+4.019990965519153
+0.19979184980671136
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p><strong>Importations</strong></p>
+<p>We are using several Python libraries for statistical analysis and
+machine learning. statsmodels.api and statsmodels.formula.api help us
+estimate and test statistical models. scikit-learn tools like
+train_test_split split our data, while LinearRegression provides
+baseline model. Finally, mean_squared_error and r2_score evaluate our
+models' accuracy and performance.</p>
+</div>
+<div class="cell code" data-execution_count="23">
+<div class="sourceCode" id="cb31"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> statsmodels.api <span class="im">as</span> sm</span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> statsmodels.formula.api <span class="im">as</span> smf</span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LinearRegression</span>
+<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> mean_squared_error, r2_score</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p><strong>Split and Feature Selection</strong></p>
+<p>We're splitting 20% of the dataset for testing, 80% for training
+because it's common practice, setting the random state to ensure we
+generate the same random numbers each time we run the code. We're using
+all of the variables available, especially the transformed features,
+except for the target feature, which is the number of streams.</p>
+</div>
+<div class="cell code" data-execution_count="24">
+<div class="sourceCode" id="cb32"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> df_master[[<span class="st">&#39;artist_count&#39;</span>, <span class="st">&#39;bpm&#39;</span>, <span class="st">&quot;key_mapping&quot;</span>, <span class="st">&quot;mode_mapping&quot;</span>, <span class="st">&#39;danceability_%&#39;</span>, <span class="st">&#39;in_spotify_playlists&#39;</span>,<span class="st">&#39;in_spotify_charts&#39;</span>,</span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;in_apple_playlists&#39;</span>,<span class="st">&#39;in_apple_charts&#39;</span>,<span class="st">&#39;in_deezer_playlists&#39;</span>,<span class="st">&#39;in_deezer_charts&#39;</span>,<span class="st">&#39;in_shazam_charts&#39;</span>, <span class="st">&#39;valence_%&#39;</span>,</span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;energy_%&#39;</span>,<span class="st">&#39;acousticness_sqrt&#39;</span>,<span class="st">&#39;instrumentalness_log&#39;</span>,<span class="st">&#39;liveness_log&#39;</span>, <span class="st">&#39;speechiness_log&#39;</span>]]</span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> df_master[<span class="st">&#39;streams&#39;</span>]</span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Split the data into training and testing sets</span></span>
+<span id="cb32-7"><a href="#cb32-7" aria-hidden="true" tabindex="-1"></a>X_train, X_test, y_train, y_test <span class="op">=</span> train_test_split(X, y, test_size<span class="op">=</span><span class="fl">0.2</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p><strong>Linear Regression Model</strong></p>
+</div>
+<div class="cell code" data-execution_count="25">
+<div class="sourceCode" id="cb33"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Fit the linear regression model</span></span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> LinearRegression()</span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>model.fit(X_train, y_train)</span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Evaluate the model</span></span>
+<span id="cb33-6"><a href="#cb33-6" aria-hidden="true" tabindex="-1"></a>y_pred <span class="op">=</span> model.predict(X_test)</span>
+<span id="cb33-7"><a href="#cb33-7" aria-hidden="true" tabindex="-1"></a>mse <span class="op">=</span> mean_squared_error(y_test, y_pred)</span>
+<span id="cb33-8"><a href="#cb33-8" aria-hidden="true" tabindex="-1"></a>r2 <span class="op">=</span> r2_score(y_test, y_pred)</span>
+<span id="cb33-9"><a href="#cb33-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-10"><a href="#cb33-10" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&#39;Mean Squared Error: </span><span class="sc">{</span>mse<span class="sc">}</span><span class="ss">&#39;</span>)</span>
+<span id="cb33-11"><a href="#cb33-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&#39;R-squared: </span><span class="sc">{</span>r2<span class="sc">}</span><span class="ss">&#39;</span>)</span>
+<span id="cb33-12"><a href="#cb33-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-13"><a href="#cb33-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Make predictions</span></span>
+<span id="cb33-14"><a href="#cb33-14" aria-hidden="true" tabindex="-1"></a>y_pred_train <span class="op">=</span> model.predict(X_train)</span>
+<span id="cb33-15"><a href="#cb33-15" aria-hidden="true" tabindex="-1"></a>y_pred_test <span class="op">=</span> model.predict(X_test)</span>
+<span id="cb33-16"><a href="#cb33-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-17"><a href="#cb33-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Visualize the results</span></span>
+<span id="cb33-18"><a href="#cb33-18" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">14</span>, <span class="dv">6</span>))</span>
+<span id="cb33-19"><a href="#cb33-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-20"><a href="#cb33-20" aria-hidden="true" tabindex="-1"></a><span class="co"># Training set</span></span>
+<span id="cb33-21"><a href="#cb33-21" aria-hidden="true" tabindex="-1"></a>plt.subplot(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">1</span>)</span>
+<span id="cb33-22"><a href="#cb33-22" aria-hidden="true" tabindex="-1"></a>sns.scatterplot(x<span class="op">=</span>y_train, y<span class="op">=</span>y_pred_train, alpha<span class="op">=</span><span class="fl">0.7</span>)</span>
+<span id="cb33-23"><a href="#cb33-23" aria-hidden="true" tabindex="-1"></a>plt.plot([y_train.<span class="bu">min</span>(), y_train.<span class="bu">max</span>()], [y_train.<span class="bu">min</span>(), y_train.<span class="bu">max</span>()], color<span class="op">=</span><span class="st">&#39;red&#39;</span>, lw<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb33-24"><a href="#cb33-24" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Training Set: Predicted vs Actual&#39;</span>)</span>
+<span id="cb33-25"><a href="#cb33-25" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Actual Values&#39;</span>)</span>
+<span id="cb33-26"><a href="#cb33-26" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Predicted Values&#39;</span>)</span>
+<span id="cb33-27"><a href="#cb33-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-28"><a href="#cb33-28" aria-hidden="true" tabindex="-1"></a><span class="co"># Testing set</span></span>
+<span id="cb33-29"><a href="#cb33-29" aria-hidden="true" tabindex="-1"></a>plt.subplot(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">2</span>)</span>
+<span id="cb33-30"><a href="#cb33-30" aria-hidden="true" tabindex="-1"></a>sns.scatterplot(x<span class="op">=</span>y_test, y<span class="op">=</span>y_pred_test, alpha<span class="op">=</span><span class="fl">0.7</span>)</span>
+<span id="cb33-31"><a href="#cb33-31" aria-hidden="true" tabindex="-1"></a>plt.plot([y_test.<span class="bu">min</span>(), y_test.<span class="bu">max</span>()], [y_test.<span class="bu">min</span>(), y_test.<span class="bu">max</span>()], color<span class="op">=</span><span class="st">&#39;red&#39;</span>, lw<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb33-32"><a href="#cb33-32" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Testing Set: Predicted vs Actual&#39;</span>)</span>
+<span id="cb33-33"><a href="#cb33-33" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Actual Values&#39;</span>)</span>
+<span id="cb33-34"><a href="#cb33-34" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Predicted Values&#39;</span>)</span>
+<span id="cb33-35"><a href="#cb33-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-36"><a href="#cb33-36" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb33-37"><a href="#cb33-37" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Mean Squared Error: 8.03967273846191e+16
+R-squared: 0.7377984270436072
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_a0d01c4259604774a5ff3a86609a0b8b/52fccc9c5734de6be4255cc53ab3d35dfab0e9bf.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p><strong>Interpretation of the Results</strong></p>
+<p>The MSE is quite high. The predictions might not be very close to the
+actual values. We can see from the plot that the higher the streams, the
+less accurate the predictions are. Although the R-squared value is
+fairly good, 0.7425 means that 74.25% of the variance in the target
+variable is explained. There's still 25.75% that is not explained,
+suggesting that the model is still missing some important patterns.</p>
+<p><strong>Model Improvement</strong></p>
+<p>Linear regression assumes a linear relationship between the features
+and the target but since we're missing some important pattern, they
+could have non-linear relationships. Polynomial feautures can help
+capture these relationships by adding higher-degree terms, the model
+becomes more flexible and capable of fitting more complex patterns in
+the data. In this case, let's square up the features.</p>
+</div>
+<div class="cell markdown">
+<p><strong>Linear Regression using Poly Features</strong></p>
+</div>
+<div class="cell code" data-execution_count="26">
+<div class="sourceCode" id="cb35"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Import library</span></span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> PolynomialFeatures</span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Create polynomial features</span></span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a>poly <span class="op">=</span> PolynomialFeatures(degree<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a>X_train_poly <span class="op">=</span> poly.fit_transform(X_train)</span>
+<span id="cb35-7"><a href="#cb35-7" aria-hidden="true" tabindex="-1"></a>X_test_poly <span class="op">=</span> poly.transform(X_test)</span>
+<span id="cb35-8"><a href="#cb35-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-9"><a href="#cb35-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Fit the linear regression model with polynomial features</span></span>
+<span id="cb35-10"><a href="#cb35-10" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> LinearRegression()</span>
+<span id="cb35-11"><a href="#cb35-11" aria-hidden="true" tabindex="-1"></a>model.fit(X_train_poly, y_train)</span>
+<span id="cb35-12"><a href="#cb35-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-13"><a href="#cb35-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Make predictions</span></span>
+<span id="cb35-14"><a href="#cb35-14" aria-hidden="true" tabindex="-1"></a>y_pred_train <span class="op">=</span> model.predict(X_train_poly)</span>
+<span id="cb35-15"><a href="#cb35-15" aria-hidden="true" tabindex="-1"></a>y_pred_test <span class="op">=</span> model.predict(X_test_poly)</span>
+<span id="cb35-16"><a href="#cb35-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-17"><a href="#cb35-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Evaluate the model</span></span>
+<span id="cb35-18"><a href="#cb35-18" aria-hidden="true" tabindex="-1"></a>mse_train <span class="op">=</span> mean_squared_error(y_train, y_pred_train)</span>
+<span id="cb35-19"><a href="#cb35-19" aria-hidden="true" tabindex="-1"></a>r2_train <span class="op">=</span> r2_score(y_train, y_pred_train)</span>
+<span id="cb35-20"><a href="#cb35-20" aria-hidden="true" tabindex="-1"></a>mse_test <span class="op">=</span> mean_squared_error(y_test, y_pred_test)</span>
+<span id="cb35-21"><a href="#cb35-21" aria-hidden="true" tabindex="-1"></a>r2_test <span class="op">=</span> r2_score(y_test, y_pred_test)</span>
+<span id="cb35-22"><a href="#cb35-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-23"><a href="#cb35-23" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Training Mean Squared Error: </span><span class="sc">{</span>mse_train<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb35-24"><a href="#cb35-24" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Training R-squared: </span><span class="sc">{</span>r2_train<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb35-25"><a href="#cb35-25" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Testing Mean Squared Error: </span><span class="sc">{</span>mse_test<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb35-26"><a href="#cb35-26" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Testing R-squared: </span><span class="sc">{</span>r2_test<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb35-27"><a href="#cb35-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-28"><a href="#cb35-28" aria-hidden="true" tabindex="-1"></a><span class="co"># Visualize the results</span></span>
+<span id="cb35-29"><a href="#cb35-29" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">14</span>, <span class="dv">6</span>))</span>
+<span id="cb35-30"><a href="#cb35-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-31"><a href="#cb35-31" aria-hidden="true" tabindex="-1"></a><span class="co"># Training set</span></span>
+<span id="cb35-32"><a href="#cb35-32" aria-hidden="true" tabindex="-1"></a>plt.subplot(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">1</span>)</span>
+<span id="cb35-33"><a href="#cb35-33" aria-hidden="true" tabindex="-1"></a>sns.scatterplot(x<span class="op">=</span>y_train, y<span class="op">=</span>y_pred_train, alpha<span class="op">=</span><span class="fl">0.7</span>)</span>
+<span id="cb35-34"><a href="#cb35-34" aria-hidden="true" tabindex="-1"></a>plt.plot([y_train.<span class="bu">min</span>(), y_train.<span class="bu">max</span>()], [y_train.<span class="bu">min</span>(), y_train.<span class="bu">max</span>()], color<span class="op">=</span><span class="st">&#39;red&#39;</span>, lw<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb35-35"><a href="#cb35-35" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Training Set: Predicted vs Actual&#39;</span>)</span>
+<span id="cb35-36"><a href="#cb35-36" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Actual Values&#39;</span>)</span>
+<span id="cb35-37"><a href="#cb35-37" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Predicted Values&#39;</span>)</span>
+<span id="cb35-38"><a href="#cb35-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-39"><a href="#cb35-39" aria-hidden="true" tabindex="-1"></a><span class="co"># Testing set</span></span>
+<span id="cb35-40"><a href="#cb35-40" aria-hidden="true" tabindex="-1"></a>plt.subplot(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">2</span>)</span>
+<span id="cb35-41"><a href="#cb35-41" aria-hidden="true" tabindex="-1"></a>sns.scatterplot(x<span class="op">=</span>y_test, y<span class="op">=</span>y_pred_test, alpha<span class="op">=</span><span class="fl">0.7</span>)</span>
+<span id="cb35-42"><a href="#cb35-42" aria-hidden="true" tabindex="-1"></a>plt.plot([y_test.<span class="bu">min</span>(), y_test.<span class="bu">max</span>()], [y_test.<span class="bu">min</span>(), y_test.<span class="bu">max</span>()], color<span class="op">=</span><span class="st">&#39;red&#39;</span>, lw<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb35-43"><a href="#cb35-43" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Testing Set: Predicted vs Actual&#39;</span>)</span>
+<span id="cb35-44"><a href="#cb35-44" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Actual Values&#39;</span>)</span>
+<span id="cb35-45"><a href="#cb35-45" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Predicted Values&#39;</span>)</span>
+<span id="cb35-46"><a href="#cb35-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-47"><a href="#cb35-47" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb35-48"><a href="#cb35-48" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Training Mean Squared Error: 2.984660415999511e+16
+Training R-squared: 0.8871293403909434
+Testing Mean Squared Error: 2.102070734945148e+17
+Testing R-squared: 0.31444192929466996
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_a0d01c4259604774a5ff3a86609a0b8b/d85bee82631c54482762e44917c099b0cb3893ea.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p><strong>Interpretation of the Results and Future
+Improvements</strong></p>
+<p>The model performs quite well on the training set with a low MSE and
+high R-squared value but performs poorly on the testing set with a high
+MSE and negative R-squared. This indicates that the model is
+overfitting, poor generalization to unseen data.</p>
+<p>In addition, when looking at the variables of interest, we can trim
+the variables that involve chart position and presence in playlists.
+Essentially, anything directly related to number of streams. Lets do
+everything again, but this time without those variables.</p>
+</div>
+<div class="cell code" data-execution_count="28">
+<div class="sourceCode" id="cb37"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> df_master[[<span class="st">&#39;artist_count&#39;</span>, <span class="st">&#39;bpm&#39;</span>, <span class="st">&quot;key_mapping&quot;</span>, <span class="st">&quot;mode_mapping&quot;</span>, <span class="st">&#39;danceability_%&#39;</span>,</span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>               <span class="st">&#39;valence_%&#39;</span>,<span class="st">&#39;energy_%&#39;</span>,<span class="st">&#39;acousticness_sqrt&#39;</span>,<span class="st">&#39;instrumentalness_log&#39;</span>,<span class="st">&#39;liveness_log&#39;</span>,</span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>                <span class="st">&#39;speechiness_log&#39;</span>]]</span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> df_master[<span class="st">&#39;streams&#39;</span>]</span>
+<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-6"><a href="#cb37-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Split the data into training and testing sets</span></span>
+<span id="cb37-7"><a href="#cb37-7" aria-hidden="true" tabindex="-1"></a>X_train, X_test, y_train, y_test <span class="op">=</span> train_test_split(X, y, test_size<span class="op">=</span><span class="fl">0.2</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb37-8"><a href="#cb37-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-9"><a href="#cb37-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Fit the linear regression model</span></span>
+<span id="cb37-10"><a href="#cb37-10" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> LinearRegression()</span>
+<span id="cb37-11"><a href="#cb37-11" aria-hidden="true" tabindex="-1"></a>model.fit(X_train, y_train)</span>
+<span id="cb37-12"><a href="#cb37-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-13"><a href="#cb37-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Evaluate the model</span></span>
+<span id="cb37-14"><a href="#cb37-14" aria-hidden="true" tabindex="-1"></a>y_pred <span class="op">=</span> model.predict(X_test)</span>
+<span id="cb37-15"><a href="#cb37-15" aria-hidden="true" tabindex="-1"></a>mse <span class="op">=</span> mean_squared_error(y_test, y_pred)</span>
+<span id="cb37-16"><a href="#cb37-16" aria-hidden="true" tabindex="-1"></a>r2 <span class="op">=</span> r2_score(y_test, y_pred)</span>
+<span id="cb37-17"><a href="#cb37-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-18"><a href="#cb37-18" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&#39;Mean Squared Error: </span><span class="sc">{</span>mse<span class="sc">}</span><span class="ss">&#39;</span>)</span>
+<span id="cb37-19"><a href="#cb37-19" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&#39;R-squared: </span><span class="sc">{</span>r2<span class="sc">}</span><span class="ss">&#39;</span>)</span>
+<span id="cb37-20"><a href="#cb37-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-21"><a href="#cb37-21" aria-hidden="true" tabindex="-1"></a><span class="co"># Make predictions</span></span>
+<span id="cb37-22"><a href="#cb37-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-23"><a href="#cb37-23" aria-hidden="true" tabindex="-1"></a>y_pred_train <span class="op">=</span> model.predict(X_train)</span>
+<span id="cb37-24"><a href="#cb37-24" aria-hidden="true" tabindex="-1"></a>y_pred_test <span class="op">=</span> model.predict(X_test)</span>
+<span id="cb37-25"><a href="#cb37-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-26"><a href="#cb37-26" aria-hidden="true" tabindex="-1"></a><span class="co"># Visualize the results</span></span>
+<span id="cb37-27"><a href="#cb37-27" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">14</span>, <span class="dv">6</span>))</span>
+<span id="cb37-28"><a href="#cb37-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-29"><a href="#cb37-29" aria-hidden="true" tabindex="-1"></a><span class="co"># Training set</span></span>
+<span id="cb37-30"><a href="#cb37-30" aria-hidden="true" tabindex="-1"></a>plt.subplot(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">1</span>)</span>
+<span id="cb37-31"><a href="#cb37-31" aria-hidden="true" tabindex="-1"></a>sns.scatterplot(x<span class="op">=</span>y_train, y<span class="op">=</span>y_pred_train, alpha<span class="op">=</span><span class="fl">0.7</span>)</span>
+<span id="cb37-32"><a href="#cb37-32" aria-hidden="true" tabindex="-1"></a>plt.plot([y_train.<span class="bu">min</span>(), y_train.<span class="bu">max</span>()], [y_train.<span class="bu">min</span>(), y_train.<span class="bu">max</span>()], color<span class="op">=</span><span class="st">&#39;red&#39;</span>, lw<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb37-33"><a href="#cb37-33" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Linear Model: Training Set: Predicted vs Actual&#39;</span>)</span>
+<span id="cb37-34"><a href="#cb37-34" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Actual Values&#39;</span>)</span>
+<span id="cb37-35"><a href="#cb37-35" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Predicted Values&#39;</span>)</span>
+<span id="cb37-36"><a href="#cb37-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-37"><a href="#cb37-37" aria-hidden="true" tabindex="-1"></a><span class="co"># Testing set</span></span>
+<span id="cb37-38"><a href="#cb37-38" aria-hidden="true" tabindex="-1"></a>plt.subplot(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">2</span>)</span>
+<span id="cb37-39"><a href="#cb37-39" aria-hidden="true" tabindex="-1"></a>sns.scatterplot(x<span class="op">=</span>y_test, y<span class="op">=</span>y_pred_test, alpha<span class="op">=</span><span class="fl">0.7</span>)</span>
+<span id="cb37-40"><a href="#cb37-40" aria-hidden="true" tabindex="-1"></a>plt.plot([y_test.<span class="bu">min</span>(), y_test.<span class="bu">max</span>()], [y_test.<span class="bu">min</span>(), y_test.<span class="bu">max</span>()], color<span class="op">=</span><span class="st">&#39;red&#39;</span>, lw<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb37-41"><a href="#cb37-41" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Linear Model: Testing Set: Predicted vs Actual&#39;</span>)</span>
+<span id="cb37-42"><a href="#cb37-42" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Actual Values&#39;</span>)</span>
+<span id="cb37-43"><a href="#cb37-43" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Predicted Values&#39;</span>)</span>
+<span id="cb37-44"><a href="#cb37-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-45"><a href="#cb37-45" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb37-46"><a href="#cb37-46" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb37-47"><a href="#cb37-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-48"><a href="#cb37-48" aria-hidden="true" tabindex="-1"></a><span class="co"># Import library</span></span>
+<span id="cb37-49"><a href="#cb37-49" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> PolynomialFeatures</span>
+<span id="cb37-50"><a href="#cb37-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-51"><a href="#cb37-51" aria-hidden="true" tabindex="-1"></a><span class="co"># Create polynomial features</span></span>
+<span id="cb37-52"><a href="#cb37-52" aria-hidden="true" tabindex="-1"></a>poly <span class="op">=</span> PolynomialFeatures(degree<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb37-53"><a href="#cb37-53" aria-hidden="true" tabindex="-1"></a>X_train_poly <span class="op">=</span> poly.fit_transform(X_train)</span>
+<span id="cb37-54"><a href="#cb37-54" aria-hidden="true" tabindex="-1"></a>X_test_poly <span class="op">=</span> poly.transform(X_test)</span>
+<span id="cb37-55"><a href="#cb37-55" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-56"><a href="#cb37-56" aria-hidden="true" tabindex="-1"></a><span class="co"># Fit the linear regression model with polynomial features</span></span>
+<span id="cb37-57"><a href="#cb37-57" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> LinearRegression()</span>
+<span id="cb37-58"><a href="#cb37-58" aria-hidden="true" tabindex="-1"></a>model.fit(X_train_poly, y_train)</span>
+<span id="cb37-59"><a href="#cb37-59" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-60"><a href="#cb37-60" aria-hidden="true" tabindex="-1"></a><span class="co"># Make predictions</span></span>
+<span id="cb37-61"><a href="#cb37-61" aria-hidden="true" tabindex="-1"></a>y_pred_train <span class="op">=</span> model.predict(X_train_poly)</span>
+<span id="cb37-62"><a href="#cb37-62" aria-hidden="true" tabindex="-1"></a>y_pred_test <span class="op">=</span> model.predict(X_test_poly)</span>
+<span id="cb37-63"><a href="#cb37-63" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-64"><a href="#cb37-64" aria-hidden="true" tabindex="-1"></a><span class="co"># Evaluate the model</span></span>
+<span id="cb37-65"><a href="#cb37-65" aria-hidden="true" tabindex="-1"></a>mse_train <span class="op">=</span> mean_squared_error(y_train, y_pred_train)</span>
+<span id="cb37-66"><a href="#cb37-66" aria-hidden="true" tabindex="-1"></a>r2_train <span class="op">=</span> r2_score(y_train, y_pred_train)</span>
+<span id="cb37-67"><a href="#cb37-67" aria-hidden="true" tabindex="-1"></a>mse_test <span class="op">=</span> mean_squared_error(y_test, y_pred_test)</span>
+<span id="cb37-68"><a href="#cb37-68" aria-hidden="true" tabindex="-1"></a>r2_test <span class="op">=</span> r2_score(y_test, y_pred_test)</span>
+<span id="cb37-69"><a href="#cb37-69" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-70"><a href="#cb37-70" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Training Mean Squared Error: </span><span class="sc">{</span>mse_train<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb37-71"><a href="#cb37-71" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Training R-squared: </span><span class="sc">{</span>r2_train<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb37-72"><a href="#cb37-72" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Testing Mean Squared Error: </span><span class="sc">{</span>mse_test<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb37-73"><a href="#cb37-73" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Testing R-squared: </span><span class="sc">{</span>r2_test<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb37-74"><a href="#cb37-74" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-75"><a href="#cb37-75" aria-hidden="true" tabindex="-1"></a><span class="co"># Visualize the results</span></span>
+<span id="cb37-76"><a href="#cb37-76" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">14</span>, <span class="dv">6</span>))</span>
+<span id="cb37-77"><a href="#cb37-77" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-78"><a href="#cb37-78" aria-hidden="true" tabindex="-1"></a><span class="co"># Training set</span></span>
+<span id="cb37-79"><a href="#cb37-79" aria-hidden="true" tabindex="-1"></a>plt.subplot(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">1</span>)</span>
+<span id="cb37-80"><a href="#cb37-80" aria-hidden="true" tabindex="-1"></a>sns.scatterplot(x<span class="op">=</span>y_train, y<span class="op">=</span>y_pred_train, alpha<span class="op">=</span><span class="fl">0.7</span>)</span>
+<span id="cb37-81"><a href="#cb37-81" aria-hidden="true" tabindex="-1"></a>plt.plot([y_train.<span class="bu">min</span>(), y_train.<span class="bu">max</span>()], [y_train.<span class="bu">min</span>(), y_train.<span class="bu">max</span>()], color<span class="op">=</span><span class="st">&#39;red&#39;</span>, lw<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb37-82"><a href="#cb37-82" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Polynomial Model : Training Set: Predicted vs Actual&#39;</span>)</span>
+<span id="cb37-83"><a href="#cb37-83" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Actual Values&#39;</span>)</span>
+<span id="cb37-84"><a href="#cb37-84" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Predicted Values&#39;</span>)</span>
+<span id="cb37-85"><a href="#cb37-85" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-86"><a href="#cb37-86" aria-hidden="true" tabindex="-1"></a><span class="co"># Testing set</span></span>
+<span id="cb37-87"><a href="#cb37-87" aria-hidden="true" tabindex="-1"></a>plt.subplot(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">2</span>)</span>
+<span id="cb37-88"><a href="#cb37-88" aria-hidden="true" tabindex="-1"></a>sns.scatterplot(x<span class="op">=</span>y_test, y<span class="op">=</span>y_pred_test, alpha<span class="op">=</span><span class="fl">0.7</span>)</span>
+<span id="cb37-89"><a href="#cb37-89" aria-hidden="true" tabindex="-1"></a>plt.plot([y_test.<span class="bu">min</span>(), y_test.<span class="bu">max</span>()], [y_test.<span class="bu">min</span>(), y_test.<span class="bu">max</span>()], color<span class="op">=</span><span class="st">&#39;red&#39;</span>, lw<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb37-90"><a href="#cb37-90" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Polynomial Model: Testing Set: Predicted vs Actual&#39;</span>)</span>
+<span id="cb37-91"><a href="#cb37-91" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Actual Values&#39;</span>)</span>
+<span id="cb37-92"><a href="#cb37-92" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Predicted Values&#39;</span>)</span>
+<span id="cb37-93"><a href="#cb37-93" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-94"><a href="#cb37-94" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb37-95"><a href="#cb37-95" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Mean Squared Error: 2.929030992661983e+17
+R-squared: 0.044741547948973226
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_a0d01c4259604774a5ff3a86609a0b8b/0b28d61652bde575decd5e28bcf5271970b3d3b6.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>Training Mean Squared Error: 2.5497314223818493e+17
+Training R-squared: 0.03577014682321367
+Testing Mean Squared Error: 3.405300732634685e+17
+Testing R-squared: -0.11058650959117178
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_a0d01c4259604774a5ff3a86609a0b8b/b4f91896ab9ffb9985fa37abb84035c66b6c1ff9.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>Here we can see that our R squared value reaches -0.1. This
+indiciates that our data has no correlation with determining number of
+streams. Considering that we only look at music elements, we can
+determine that those factors do not play a role in determining number of
+streams a song will achieve.</p>
+</div>
+<section id="part-5-insight-and-policy-decision" class="cell markdown">
+<h2>Part 5: Insight and Policy Decision</h2>
+</section>
+<div class="cell markdown">
+<p>Now that we have our analysis and models we can use them to try to
+make useful insights into our population.</p>
+<p>When looking at the models between the musical elements and the
+number of streams a song has, we can conclude that there exists no
+correlation between them that we can leverage. Within our model, we used
+the numerical features of the song, such as the number of artists, the
+time it was released, and things like the mode, key, danceability,
+etc.</p>
+<p>Essentially what this tells us is that the success of a song isn't
+dependent on the elements of a song. Within our datasheet, we have songs
+of all types(genres) which implies that the musical elements between
+them are also quite different, and, as we've seen prior, the variance
+that our dataset has, in regards to streams, is extremely high. What we
+can conclude from this is that there exists a multitude of factors
+beyond the musical elements within our dataset. There exist certain
+immeasurable factors such as the presence of an artist, and cultural
+relevance/significance; as well as, things like marketing factors, such
+as different promotion strategies that different artists have - what
+platforms they promote their songs on, how they promote it, etc.</p>
+<p>Consequently, a machine learning model based solely on musical
+attributes is insufficient for accurately predicting a song’s success,
+highlighting the need for a more holistic approach that encompasses a
+broader range of factors. By incorporating additional features into or
+data we could further improve our model in order to accurately predict
+the popularity of a particular song.</p>
+<p>Even though our model and predictions were not usable, because we
+took the time and effort we were able to determine how to further
+improve our data for our future endeavors. At the end of the day, we
+went through the entire data science lifecycle; we collected data,
+processed it, analyzed it, and modeled it and while we didn't recieve
+any noteworthy insights, things like this happen in data science.</p>
+</div>
+<div class="cell markdown">
+<p><strong>Bibliography</strong></p>
+<p>Data Sources:</p>
+<p><a
+href="https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023"
+class="uri">https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023</a></p>
+<p>Industry Knowledge:</p>
+<p><a
+href="https://www.cnn.com/cnn-underscored/reviews/best-music-streaming-service"
+class="uri">https://www.cnn.com/cnn-underscored/reviews/best-music-streaming-service</a></p>
+<p><a
+href="https://www.forbes.com/sites/forbesbusinesscouncil/2021/09/13/the-evolution-of-the-music-industry---and-what-it-means-for-marketing-yourself-as-a-musician/?sh=6264f546297a"
+class="uri">https://www.forbes.com/sites/forbesbusinesscouncil/2021/09/13/the-evolution-of-the-music-industry---and-what-it-means-for-marketing-yourself-as-a-musician/?sh=6264f546297a</a></p>
+<p><a
+href="https://www.billboard.com/business/business-news/ifpi-global-report-2024-music-business-revenue-market-share-1235637873/"
+class="uri">https://www.billboard.com/business/business-news/ifpi-global-report-2024-music-business-revenue-market-share-1235637873/</a></p>
+<p>Hypothesis Testing:</p>
+<p><a
+href="https://www.kdnuggets.com/2023/02/hypothesis-testing-data-science.html"
+class="uri">https://www.kdnuggets.com/2023/02/hypothesis-testing-data-science.html</a></p>
+</div>
+</body>
+</html>
